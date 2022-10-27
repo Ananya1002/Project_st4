@@ -47,6 +47,11 @@ const Navbar = () => {
             <NavLink className="nav-link" exact
         to="/login">Login</NavLink>
         </li>
+
+        <li className="nav-item">
+            <NavLink className="nav-link" exact
+        to="/Img">Images</NavLink>
+        </li>
           </ul>
         </div>
       </div>

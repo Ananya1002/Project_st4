@@ -5,6 +5,7 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Navbar from "./components/layout/Navbar";
+import UploadAndDisplayImage from "./Img";
 import {
   BrowserRouter as Router,
   Route,
@@ -33,6 +34,8 @@ function App(props) {
           <Route exact path="/users/:id" component={User} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/signup" component={SignUp} />
+          <Route exact path="/Img" component={UploadAndDisplayImage} />
+
           <Route component={NotFound} />
         </Switch>
       </div>
